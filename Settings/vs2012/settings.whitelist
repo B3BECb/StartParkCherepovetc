@@ -1,0 +1,65 @@
+# User Settings Whitelist File
+# Specifies XPaths of nodes which are overriden by user settings
+# 1 XPath expression per 1 line
+# Each expression must refer to a single XML element
+
+# CSharp
+UserSettings/ToolsOptions/ToolsOptionsCategory[@RegisteredName="TextEditor"]/ToolsOptionsSubCategory[@RegisteredName="CSharp"]/PropertyValue[@name="AutoListMembers"]
+UserSettings/ToolsOptions/ToolsOptionsCategory[@RegisteredName="TextEditor"]/ToolsOptionsSubCategory[@RegisteredName="CSharp"]/PropertyValue[@name="HideAdvancedMembers"]
+UserSettings/ToolsOptions/ToolsOptionsCategory[@RegisteredName="TextEditor"]/ToolsOptionsSubCategory[@RegisteredName="CSharp"]/PropertyValue[@name="ShowNavigationBar"]
+UserSettings/ToolsOptions/ToolsOptionsCategory[@RegisteredName="TextEditor"]/ToolsOptionsSubCategory[@RegisteredName="CSharp"]/PropertyValue[@name="VirtualSpace"]
+UserSettings/ToolsOptions/ToolsOptionsCategory[@RegisteredName="TextEditor"]/ToolsOptionsSubCategory[@RegisteredName="CSharp"]/PropertyValue[@name="WordWrapGlyphs"]
+UserSettings/ToolsOptions/ToolsOptionsCategory[@RegisteredName="TextEditor"]/ToolsOptionsSubCategory[@RegisteredName="CSharp"]/PropertyValue[@name="EnableLeftClickForURLs"]
+UserSettings/ToolsOptions/ToolsOptionsCategory[@RegisteredName="TextEditor"]/ToolsOptionsSubCategory[@RegisteredName="CSharp"]/PropertyValue[@name="ShowLineNumbers"]
+UserSettings/ToolsOptions/ToolsOptionsCategory[@RegisteredName="TextEditor"]/ToolsOptionsSubCategory[@RegisteredName="CSharp"]/PropertyValue[@name="WordWrap"]
+UserSettings/ToolsOptions/ToolsOptionsCategory[@RegisteredName="TextEditor"]/ToolsOptionsSubCategory[@RegisteredName="CSharp"]/PropertyValue[@name="CutCopyBlankLines"]
+UserSettings/ToolsOptions/ToolsOptionsCategory[@RegisteredName="TextEditor"]/ToolsOptionsSubCategory[@RegisteredName="CSharp"]/PropertyValue[@name="AutoListParams"]
+
+# CSharp-Specific
+UserSettings/ToolsOptions/ToolsOptionsCategory[@RegisteredName="TextEditor"]/ToolsOptionsSubCategory[@RegisteredName="CSharp-Specific"]/PropertyValue[@name="Formatting_TriggerOnPaste"]
+UserSettings/ToolsOptions/ToolsOptionsCategory[@RegisteredName="TextEditor"]/ToolsOptionsSubCategory[@RegisteredName="CSharp-Specific"]/PropertyValue[@name="CompleteOnSpace"]
+UserSettings/ToolsOptions/ToolsOptionsCategory[@RegisteredName="TextEditor"]/ToolsOptionsSubCategory[@RegisteredName="CSharp-Specific"]/PropertyValue[@name="WarnWhenMembersCauseCompilerGeneratedReferences"]
+UserSettings/ToolsOptions/ToolsOptionsCategory[@RegisteredName="TextEditor"]/ToolsOptionsSubCategory[@RegisteredName="CSharp-Specific"]/PropertyValue[@name="TrackMostRecentlyUsed"]
+UserSettings/ToolsOptions/ToolsOptionsCategory[@RegisteredName="TextEditor"]/ToolsOptionsSubCategory[@RegisteredName="CSharp-Specific"]/PropertyValue[@name="HighlightReferences"]
+UserSettings/ToolsOptions/ToolsOptionsCategory[@RegisteredName="TextEditor"]/ToolsOptionsSubCategory[@RegisteredName="CSharp-Specific"]/PropertyValue[@name="Formatting_TriggerOnBlockCompletion"]
+UserSettings/ToolsOptions/ToolsOptionsCategory[@RegisteredName="TextEditor"]/ToolsOptionsSubCategory[@RegisteredName="CSharp-Specific"]/PropertyValue[@name="Squiggles_SemanticAnalysis"]
+UserSettings/ToolsOptions/ToolsOptionsCategory[@RegisteredName="TextEditor"]/ToolsOptionsSubCategory[@RegisteredName="CSharp-Specific"]/PropertyValue[@name="BringUpOnIdentifier"]
+UserSettings/ToolsOptions/ToolsOptionsCategory[@RegisteredName="TextEditor"]/ToolsOptionsSubCategory[@RegisteredName="CSharp-Specific"]/PropertyValue[@name="WarnOnBuildErrors"]
+UserSettings/ToolsOptions/ToolsOptionsCategory[@RegisteredName="TextEditor"]/ToolsOptionsSubCategory[@RegisteredName="CSharp-Specific"]/PropertyValue[@name="ShowSnippets"]
+UserSettings/ToolsOptions/ToolsOptionsCategory[@RegisteredName="TextEditor"]/ToolsOptionsSubCategory[@RegisteredName="CSharp-Specific"]/PropertyValue[@name="ShowKeywords"]
+UserSettings/ToolsOptions/ToolsOptionsCategory[@RegisteredName="TextEditor"]/ToolsOptionsSubCategory[@RegisteredName="CSharp-Specific"]/PropertyValue[@name="Formatting_TriggerOnStatementCompletion"]
+UserSettings/ToolsOptions/ToolsOptionsCategory[@RegisteredName="TextEditor"]/ToolsOptionsSubCategory[@RegisteredName="CSharp-Specific"]/PropertyValue[@name="AutoComment"]
+UserSettings/ToolsOptions/ToolsOptionsCategory[@RegisteredName="TextEditor"]/ToolsOptionsSubCategory[@RegisteredName="CSharp-Specific"]/PropertyValue[@name="ImplementInterfaceSmartTagEnabled"]
+UserSettings/ToolsOptions/ToolsOptionsCategory[@RegisteredName="TextEditor"]/ToolsOptionsSubCategory[@RegisteredName="CSharp-Specific"]/PropertyValue[@name="EnterOutliningModeOnOpen"]
+UserSettings/ToolsOptions/ToolsOptionsCategory[@RegisteredName="TextEditor"]/ToolsOptionsSubCategory[@RegisteredName="CSharp-Specific"]/PropertyValue[@name="Squiggles"]
+UserSettings/ToolsOptions/ToolsOptionsCategory[@RegisteredName="TextEditor"]/ToolsOptionsSubCategory[@RegisteredName="CSharp-Specific"]/PropertyValue[@name="ImplementInterface_InsertRegionTags"]
+UserSettings/ToolsOptions/ToolsOptionsCategory[@RegisteredName="TextEditor"]/ToolsOptionsSubCategory[@RegisteredName="CSharp-Specific"]/PropertyValue[@name="RenameSmartTagEnabled"]
+UserSettings/ToolsOptions/ToolsOptionsCategory[@RegisteredName="TextEditor"]/ToolsOptionsSubCategory[@RegisteredName="CSharp-Specific"]/PropertyValue[@name="ColorizeBoundTypes"]
+UserSettings/ToolsOptions/ToolsOptionsCategory[@RegisteredName="TextEditor"]/ToolsOptionsSubCategory[@RegisteredName="CSharp-Specific"]/PropertyValue[@name="RemoveUnusedUsings"]
+UserSettings/ToolsOptions/ToolsOptionsCategory[@RegisteredName="TextEditor"]/ToolsOptionsSubCategory[@RegisteredName="CSharp-Specific"]/PropertyValue[@name="Rename_Overloads"]
+UserSettings/ToolsOptions/ToolsOptionsCategory[@RegisteredName="TextEditor"]/ToolsOptionsSubCategory[@RegisteredName="CSharp-Specific"]/PropertyValue[@name="EncapsulateField_SearchInComments"]
+UserSettings/ToolsOptions/ToolsOptionsCategory[@RegisteredName="TextEditor"]/ToolsOptionsSubCategory[@RegisteredName="CSharp-Specific"]/PropertyValue[@name="Refactoring_Verification_Enabled"]
+UserSettings/ToolsOptions/ToolsOptionsCategory[@RegisteredName="TextEditor"]/ToolsOptionsSubCategory[@RegisteredName="CSharp-Specific"]/PropertyValue[@name="ProgressDialogDelaySeconds"]
+
+# XAML
+UserSettings/ToolsOptions/ToolsOptionsCategory[@RegisteredName="TextEditor"]/ToolsOptionsSubCategory[@RegisteredName="XAML"]/PropertyValue[@name="AutoListMembers"]
+UserSettings/ToolsOptions/ToolsOptionsCategory[@RegisteredName="TextEditor"]/ToolsOptionsSubCategory[@RegisteredName="XAML"]/PropertyValue[@name="HideAdvancedMembers"]
+UserSettings/ToolsOptions/ToolsOptionsCategory[@RegisteredName="TextEditor"]/ToolsOptionsSubCategory[@RegisteredName="XAML"]/PropertyValue[@name="ShowNavigationBar"]
+UserSettings/ToolsOptions/ToolsOptionsCategory[@RegisteredName="TextEditor"]/ToolsOptionsSubCategory[@RegisteredName="XAML"]/PropertyValue[@name="VirtualSpace"]
+UserSettings/ToolsOptions/ToolsOptionsCategory[@RegisteredName="TextEditor"]/ToolsOptionsSubCategory[@RegisteredName="XAML"]/PropertyValue[@name="WordWrapGlyphs"]
+UserSettings/ToolsOptions/ToolsOptionsCategory[@RegisteredName="TextEditor"]/ToolsOptionsSubCategory[@RegisteredName="XAML"]/PropertyValue[@name="EnableLeftClickForURLs"]
+UserSettings/ToolsOptions/ToolsOptionsCategory[@RegisteredName="TextEditor"]/ToolsOptionsSubCategory[@RegisteredName="XAML"]/PropertyValue[@name="ShowLineNumbers"]
+UserSettings/ToolsOptions/ToolsOptionsCategory[@RegisteredName="TextEditor"]/ToolsOptionsSubCategory[@RegisteredName="XAML"]/PropertyValue[@name="WordWrap"]
+UserSettings/ToolsOptions/ToolsOptionsCategory[@RegisteredName="TextEditor"]/ToolsOptionsSubCategory[@RegisteredName="XAML"]/PropertyValue[@name="CutCopyBlankLines"]
+UserSettings/ToolsOptions/ToolsOptionsCategory[@RegisteredName="TextEditor"]/ToolsOptionsSubCategory[@RegisteredName="XAML"]/PropertyValue[@name="AutoListParams"]
+
+# XAML_Formatting
+UserSettings/Category[@name="XAML_Formatting"]/PropertyValue[@name="AutoInsertAttributeQuotes"]
+UserSettings/Category[@name="XAML_Formatting"]/PropertyValue[@name="AutoInsertCommas"]
+UserSettings/Category[@name="XAML_Formatting"]/PropertyValue[@name="AutoInsertEndBraces"]
+UserSettings/Category[@name="XAML_Formatting"]/PropertyValue[@name="AutoNameElements"]
+UserSettings/Category[@name="XAML_Formatting"]/PropertyValue[@name="AutoReformatOnEndTag"]
+UserSettings/Category[@name="XAML_Formatting"]/PropertyValue[@name="AutoReformatOnPaste"]
+UserSettings/Category[@name="XAML_Formatting"]/PropertyValue[@name="AutoReformatOnStartTag"]
+UserSettings/Category[@name="XAML_Formatting"]/PropertyValue[@name="AutoToolboxPopulate"]
+UserSettings/Category[@name="XAML_Formatting"]/PropertyValue[@name="MaximizeXamlEditor"]
