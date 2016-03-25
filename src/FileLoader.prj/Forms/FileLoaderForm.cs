@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace FileLoader
 {
-	public partial class Form1 : Form
+	public partial class FileLoaderForm : Form
 	{
-		public Form1()
+		public FileLoaderForm()
 		{
 			InitializeComponent();
 		}
