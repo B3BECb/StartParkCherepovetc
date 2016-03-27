@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FileLoader.Core
+namespace FileLoader.Core.Enums
 {
-    public class Class1
-    {
-    }
+	public enum VerifyStates
+	{
+		FileExists,
+		DirectoryExists,
+		InvalidPath
+	}
 }
