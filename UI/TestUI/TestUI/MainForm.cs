@@ -1,55 +1,54 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Net;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace TestUI
 {
-	public partial class MainForm : Form
-	{
-		public MainForm()
-		{
-			InitializeComponent();
+    public sealed partial class MainForm : Form
+    {
+        #region .ctor
 
-			Font = SystemFonts.MessageBoxFont;
+        public MainForm()
+        {
+            InitializeComponent();
 
-			var request = WebRequest.Create("");
-			request.Credentials = new NetworkCredential("login", "password");
+            Font = SystemFonts.MessageBoxFont;
+        }
 
-			using(var response = request.GetResponse())
-			{
+        #endregion
 
-			}
-		}
+        #region override
 
-		private void textBox2_TextChanged(object sender, EventArgs e)
-		{
+        protected override void OnLoad(EventArgs e)
+        {
+            base.OnLoad(e);
 
-		}
+            MinimumSize = Size;
+        }
 
-		private void button1_Click(object sender, EventArgs e)
-		{
-			MessageBox.Show("OK", "Dialog", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        #endregion
 
+        #region handlers
 
-		}
+        private void OnLoginClick(object sender, EventArgs e)
+        {
+            using (var loginForm = new LoginForm())
+            {
+                switch(loginForm.ShowDialog(this))
+                {
+                    case DialogResult.OK:
+                        {
+                            break;
+                        }
+                    default:
+                    case DialogResult.Cancel:
+                        {
+                            break;
+                        }
+                }
+            }
+        }
 
-		private void button2_Click(object sender, EventArgs e)
-		{
-			//using(
-			var form = new MainForm();
-			form.TopMost = false;
-				//)
-			//{
-				form.Show(this);
-				//form.ShowDialog(this);
-			//}
-		}
-	}
+        #endregion
+    }
 }
