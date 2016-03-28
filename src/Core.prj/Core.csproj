@@ -41,7 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Loader.cs" />
-    <Compile Include="Enums\VerifyStates.cs" />
+    <Compile Include="Enums\VerifyState.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
