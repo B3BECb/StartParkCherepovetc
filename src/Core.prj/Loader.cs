@@ -1,6 +1,8 @@
 ﻿using System;
 using System.IO;
 
+using Mallenom;
+
 using FileLoader.Core.Enums;
 
 namespace FileLoader.Core
@@ -12,6 +14,8 @@ namespace FileLoader.Core
 		/// <returns>Возвращает строку, которая содержит текст файла.</returns>
 		public static string LoadFile(string path)
 		{
+			Verify.Argument.IsNeitherNullNorEmpty(path, nameof(path));
+
 			throw new NotImplementedException();
 		}
 
@@ -20,6 +24,8 @@ namespace FileLoader.Core
 		/// <returns>Возвращает состояние валидации пути.</returns>
 		public static VerifyState VerifyPath(string path)
 		{
+			Verify.Argument.IsNeitherNullNorEmpty(path, nameof(path));
+
 			if(File.Exists(path)) return VerifyState.FileExists;
 			if(Directory.Exists(path)) return VerifyState.DirectoryExists;
 			return VerifyState.InvalidPath;
