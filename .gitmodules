@@ -1,0 +1,3 @@
+[submodule "src/shared/external"]
+	path = src/shared/external
+	url = git@dev.mallenom.ru:mallenom.shared.git
