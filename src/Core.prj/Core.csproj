@@ -40,16 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\shared\external\Annotations.cs">
-      <Link>shared\external\Annotations.cs</Link>
-    </Compile>
-    <Compile Include="..\shared\external\Debug.cs">
-      <Link>shared\external\Debug.cs</Link>
-    </Compile>
-    <Compile Include="..\shared\external\Native.cs">
-      <Link>shared\external\Native.cs</Link>
-    </Compile>
-    <Compile Include="..\shared\external\Verify.cs">
+    <Compile Include="..\shared\external_startPark\Verify.cs">
       <Link>shared\external\Verify.cs</Link>
     </Compile>
     <Compile Include="Loader.cs" />

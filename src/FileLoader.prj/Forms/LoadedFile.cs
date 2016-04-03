@@ -18,10 +18,10 @@ namespace FileLoader.Forms
 		public LoadedFile(string fileName, string fileContent)
 		{
 			Text = fileName;
+			
+			InitializeComponent();
 
 			_txtFileContent.Text = fileContent;
-
-			InitializeComponent();
 		}
 	}
 }
