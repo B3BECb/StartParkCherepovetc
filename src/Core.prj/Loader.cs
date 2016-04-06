@@ -16,7 +16,7 @@ namespace FileLoader.Core
 		{
 			Verify.Argument.IsNeitherNullNorEmpty(path, nameof(path));
 
-			throw new NotImplementedException();
+			return File.ReadAllText(path, System.Text.Encoding.Default);
 		}
 
 		/// <summary>Проверяет допустимость пути.</summary>

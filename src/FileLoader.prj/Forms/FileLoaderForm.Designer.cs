@@ -30,9 +30,9 @@
 		{
 			this.label1 = new System.Windows.Forms.Label();
 			this._btnSelectFile = new System.Windows.Forms.Button();
-			this.button2 = new System.Windows.Forms.Button();
-			this._txtFilePath = new System.Windows.Forms.RichTextBox();
-			this.label2 = new System.Windows.Forms.Label();
+			this._btnLoadFile = new System.Windows.Forms.Button();
+			this._lblVerifyResult = new System.Windows.Forms.Label();
+			this._txtFilePath = new System.Windows.Forms.TextBox();
 			this.SuspendLayout();
 			// 
 			// label1
@@ -54,43 +54,42 @@
 			this._btnSelectFile.UseVisualStyleBackColor = true;
 			this._btnSelectFile.Click += new System.EventHandler(this.OnBtnSelectFile);
 			// 
-			// button2
+			// _btnLoadFile
 			// 
-			this.button2.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-			this.button2.Enabled = false;
-			this.button2.Location = new System.Drawing.Point(106, 79);
-			this.button2.Name = "button2";
-			this.button2.Size = new System.Drawing.Size(75, 23);
-			this.button2.TabIndex = 3;
-			this.button2.Text = "Загрузить";
-			this.button2.UseVisualStyleBackColor = true;
+			this._btnLoadFile.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+			this._btnLoadFile.Enabled = false;
+			this._btnLoadFile.Location = new System.Drawing.Point(106, 79);
+			this._btnLoadFile.Name = "_btnLoadFile";
+			this._btnLoadFile.Size = new System.Drawing.Size(75, 23);
+			this._btnLoadFile.TabIndex = 3;
+			this._btnLoadFile.Text = "Загрузить";
+			this._btnLoadFile.UseVisualStyleBackColor = true;
+			this._btnLoadFile.Click += new System.EventHandler(this._btnLoadFile_Click);
+			// 
+			// _lblVerifyResult
+			// 
+			this._lblVerifyResult.AutoSize = true;
+			this._lblVerifyResult.Location = new System.Drawing.Point(9, 49);
+			this._lblVerifyResult.Name = "_lblVerifyResult";
+			this._lblVerifyResult.Size = new System.Drawing.Size(123, 13);
+			this._lblVerifyResult.TabIndex = 5;
+			this._lblVerifyResult.Text = "Указан неверный путь";
 			// 
 			// _txtFilePath
 			// 
 			this._txtFilePath.Location = new System.Drawing.Point(12, 25);
-			this._txtFilePath.Multiline = false;
 			this._txtFilePath.Name = "_txtFilePath";
-			this._txtFilePath.Size = new System.Drawing.Size(232, 21);
-			this._txtFilePath.TabIndex = 4;
-			this._txtFilePath.Text = "";
-			// 
-			// label2
-			// 
-			this.label2.AutoSize = true;
-			this.label2.Location = new System.Drawing.Point(9, 49);
-			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(171, 13);
-			this.label2.TabIndex = 5;
-			this.label2.Text = "Указанный файл не существует";
+			this._txtFilePath.Size = new System.Drawing.Size(232, 20);
+			this._txtFilePath.TabIndex = 6;
 			// 
 			// FileLoaderForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
 			this.ClientSize = new System.Drawing.Size(284, 114);
-			this.Controls.Add(this.label2);
 			this.Controls.Add(this._txtFilePath);
-			this.Controls.Add(this.button2);
+			this.Controls.Add(this._lblVerifyResult);
+			this.Controls.Add(this._btnLoadFile);
 			this.Controls.Add(this._btnSelectFile);
 			this.Controls.Add(this.label1);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -105,9 +104,9 @@
 		#endregion
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.Button _btnSelectFile;
-		private System.Windows.Forms.Button button2;
-		private System.Windows.Forms.RichTextBox _txtFilePath;
-		private System.Windows.Forms.Label label2;
+		private System.Windows.Forms.Button _btnLoadFile;
+		private System.Windows.Forms.Label _lblVerifyResult;
+		private System.Windows.Forms.TextBox _txtFilePath;
 	}
 }
 

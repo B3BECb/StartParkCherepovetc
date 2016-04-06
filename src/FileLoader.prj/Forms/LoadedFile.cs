@@ -16,10 +16,10 @@ namespace FileLoader.Forms
 		/// <param name="fileName">Имя загруженного файла.</param>
 		/// <param name="fileContent">Содержание загруженного файла.</param>
 		public LoadedFile(string fileName, string fileContent)
-		{
-			Text = fileName;
-			
+		{			
 			InitializeComponent();
+
+			Text = fileName;
 
 			_txtFileContent.Text = fileContent;
 		}

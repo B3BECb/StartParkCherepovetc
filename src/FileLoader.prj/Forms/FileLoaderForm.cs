@@ -2,6 +2,7 @@
 using System.Windows.Forms;
 
 using FileLoader.ViewModels;
+using FileLoader.Core;
 
 namespace FileLoader
 {
@@ -26,16 +27,27 @@ namespace FileLoader
 								nameof(_viewModel.FilePath),
 								false,
 								DataSourceUpdateMode.OnPropertyChanged);
+
+			_btnLoadFile.DataBindings.Add("Enabled",
+								_viewModel,
+								nameof(_viewModel.IsLoadFileEnabled),
+								false,
+								DataSourceUpdateMode.OnPropertyChanged); 
+
+			_lblVerifyResult.DataBindings.Add("Text",
+							_viewModel,
+							nameof(_viewModel.ValidationResult),
+							false,
+							DataSourceUpdateMode.OnPropertyChanged);
 		}
 
 		#endregion
 
 		#region handlers
 
-		private void OnBtnSelectFile(object sender, EventArgs e)
-		{
-			_viewModel.SelectFile();
-		}
+		private void OnBtnSelectFile(object sender, EventArgs e) => _viewModel.SelectFile();
+
+		private void _btnLoadFile_Click(object sender, EventArgs e) => _viewModel.LoadFile();
 
 		#endregion
 	}
