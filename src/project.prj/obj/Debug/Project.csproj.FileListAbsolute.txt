@@ -1,0 +1,10 @@
+C:\Users\Iliya\Desktop\.NET\SimpleProject\Project\bin\Debug\Project.exe.config
+C:\Users\Iliya\Desktop\.NET\SimpleProject\project.prj\bin\Debug\Project.exe.config
+C:\Users\Iliya\Desktop\.NET\SimpleProject\project.prj\bin\Debug\Project.exe
+C:\Users\Iliya\Desktop\.NET\SimpleProject\project.prj\bin\Debug\Project.pdb
+C:\Users\Iliya\Desktop\.NET\SimpleProject\project.prj\obj\Debug\Project.csprojResolveAssemblyReference.cache
+C:\Users\Iliya\Desktop\.NET\SimpleProject\project.prj\obj\Debug\Project.MainForm.resources
+C:\Users\Iliya\Desktop\.NET\SimpleProject\project.prj\obj\Debug\Project.Properties.Resources.resources
+C:\Users\Iliya\Desktop\.NET\SimpleProject\project.prj\obj\Debug\Project.csproj.GenerateResource.Cache
+C:\Users\Iliya\Desktop\.NET\SimpleProject\project.prj\obj\Debug\Project.exe
+C:\Users\Iliya\Desktop\.NET\SimpleProject\project.prj\obj\Debug\Project.pdb

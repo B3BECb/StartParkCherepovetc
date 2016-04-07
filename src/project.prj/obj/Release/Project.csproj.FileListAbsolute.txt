@@ -1,0 +1,9 @@
+C:\Users\Iliya\Desktop\.NET\SimpleProject\project.prj\bin\Release\Project.exe.config
+C:\Users\Iliya\Desktop\.NET\SimpleProject\project.prj\bin\Release\Project.exe
+C:\Users\Iliya\Desktop\.NET\SimpleProject\project.prj\bin\Release\Project.pdb
+C:\Users\Iliya\Desktop\.NET\SimpleProject\project.prj\obj\Release\Project.csprojResolveAssemblyReference.cache
+C:\Users\Iliya\Desktop\.NET\SimpleProject\project.prj\obj\Release\Project.MainForm.resources
+C:\Users\Iliya\Desktop\.NET\SimpleProject\project.prj\obj\Release\Project.Properties.Resources.resources
+C:\Users\Iliya\Desktop\.NET\SimpleProject\project.prj\obj\Release\Project.csproj.GenerateResource.Cache
+C:\Users\Iliya\Desktop\.NET\SimpleProject\project.prj\obj\Release\Project.exe
+C:\Users\Iliya\Desktop\.NET\SimpleProject\project.prj\obj\Release\Project.pdb
