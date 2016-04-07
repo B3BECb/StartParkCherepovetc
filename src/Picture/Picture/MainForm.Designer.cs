@@ -38,9 +38,10 @@
 			this._pictureBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this._pictureBox.Location = new System.Drawing.Point(12, 41);
+			this._pictureBox.Location = new System.Drawing.Point(16, 50);
+			this._pictureBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this._pictureBox.Name = "_pictureBox";
-			this._pictureBox.Size = new System.Drawing.Size(345, 202);
+			this._pictureBox.Size = new System.Drawing.Size(460, 249);
 			this._pictureBox.TabIndex = 0;
 			this._pictureBox.TabStop = false;
 			// 
@@ -48,9 +49,10 @@
 			// 
 			this._btnLoading.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this._btnLoading.Location = new System.Drawing.Point(12, 12);
+			this._btnLoading.Location = new System.Drawing.Point(16, 15);
+			this._btnLoading.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this._btnLoading.Name = "_btnLoading";
-			this._btnLoading.Size = new System.Drawing.Size(345, 23);
+			this._btnLoading.Size = new System.Drawing.Size(460, 28);
 			this._btnLoading.TabIndex = 1;
 			this._btnLoading.Text = "Загрузить";
 			this._btnLoading.UseVisualStyleBackColor = true;
@@ -58,11 +60,13 @@
 			// 
 			// MainForm
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(369, 255);
+			this.BackColor = System.Drawing.SystemColors.Window;
+			this.ClientSize = new System.Drawing.Size(492, 314);
 			this.Controls.Add(this._btnLoading);
 			this.Controls.Add(this._pictureBox);
+			this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.Name = "MainForm";
 			this.Text = "Загрузка изображения";
 			((System.ComponentModel.ISupportInitialize)(this._pictureBox)).EndInit();
