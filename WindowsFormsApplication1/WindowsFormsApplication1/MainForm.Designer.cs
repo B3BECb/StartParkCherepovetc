@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApplication1
 {
-	partial class Form1
+	partial class MainForm
 	{
 		/// <summary>
 		/// Обязательная переменная конструктора.
@@ -30,15 +30,16 @@
 		{
 			this._btnAdd = new System.Windows.Forms.Button();
 			this._btnDelete = new System.Windows.Forms.Button();
-			this.dgvTable = new System.Windows.Forms.DataGridView();
+			this._booksTable = new System.Windows.Forms.DataGridView();
 			this.сWriter = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.cName = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.cYear = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			((System.ComponentModel.ISupportInitialize)(this.dgvTable)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this._booksTable)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// _btnAdd
 			// 
+			this._btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.System;
 			this._btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
 			this._btnAdd.Location = new System.Drawing.Point(12, 293);
 			this._btnAdd.Name = "_btnAdd";
@@ -50,6 +51,7 @@
 			// 
 			// _btnDelete
 			// 
+			this._btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.System;
 			this._btnDelete.Location = new System.Drawing.Point(342, 293);
 			this._btnDelete.Name = "_btnDelete";
 			this._btnDelete.Size = new System.Drawing.Size(114, 29);
@@ -58,18 +60,18 @@
 			this._btnDelete.UseVisualStyleBackColor = true;
 			this._btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
 			// 
-			// dgvTable
+			// _books
 			// 
-			this.dgvTable.AllowUserToAddRows = false;
-			this.dgvTable.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-			this.dgvTable.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+			this._booksTable.AllowUserToAddRows = false;
+			this._booksTable.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+			this._booksTable.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.сWriter,
             this.cName,
             this.cYear});
-			this.dgvTable.Location = new System.Drawing.Point(12, 12);
-			this.dgvTable.Name = "dgvTable";
-			this.dgvTable.Size = new System.Drawing.Size(444, 257);
-			this.dgvTable.TabIndex = 0;
+			this._booksTable.Location = new System.Drawing.Point(12, 12);
+			this._booksTable.Name = "_books";
+			this._booksTable.Size = new System.Drawing.Size(444, 257);
+			this._booksTable.TabIndex = 0;
 			// 
 			// сWriter
 			// 
@@ -88,19 +90,19 @@
 			this.cYear.HeaderText = "Год";
 			this.cYear.Name = "cYear";
 			// 
-			// Form1
+			// MainForm
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
 			this.BackColor = System.Drawing.SystemColors.Window;
 			this.ClientSize = new System.Drawing.Size(468, 334);
-			this.Controls.Add(this.dgvTable);
+			this.Controls.Add(this._booksTable);
 			this.Controls.Add(this._btnDelete);
 			this.Controls.Add(this._btnAdd);
-			this.Name = "Form1";
+			this.Name = "MainForm";
 			this.Text = "Книги";
 			this.Load += new System.EventHandler(this.Form1_Load);
-			((System.ComponentModel.ISupportInitialize)(this.dgvTable)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this._booksTable)).EndInit();
 			this.ResumeLayout(false);
 
 		}
@@ -111,7 +113,7 @@
 		private System.Windows.Forms.DataGridViewTextBoxColumn сWriter;
 		private System.Windows.Forms.DataGridViewTextBoxColumn cName;
 		private System.Windows.Forms.DataGridViewTextBoxColumn cYear;
-		public System.Windows.Forms.DataGridView dgvTable;
+		public System.Windows.Forms.DataGridView _booksTable;
 	}
 }
 

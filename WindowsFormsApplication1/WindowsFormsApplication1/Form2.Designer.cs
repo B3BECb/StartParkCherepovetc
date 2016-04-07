@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApplication1
 {
-	partial class Form2
+	partial class NewBookForm
 	{
 		/// <summary>
 		/// Required designer variable.
@@ -114,8 +114,9 @@
 			this._btnClear.UseVisualStyleBackColor = true;
 			this._btnClear.Click += new System.EventHandler(this.btnClear_Click);
 			// 
-			// Form2
+			// NewBookForm
 			// 
+			this.AcceptButton = this._btnAdd;
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.SystemColors.Window;
@@ -130,7 +131,7 @@
 			this.Controls.Add(this._txtWriter);
 			this.MaximizeBox = false;
 			this.MinimizeBox = false;
-			this.Name = "Form2";
+			this.Name = "NewBookForm";
 			this.Text = "Добавление";
 			this.TopMost = true;
 			this.ResumeLayout(false);

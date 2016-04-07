@@ -11,3 +11,13 @@ C:\Users\Admin\Desktop\StartParkCherepovetc\WindowsFormsApplication1\WindowsForm
 C:\Users\Admin\Desktop\StartParkCherepovetc\src\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
 C:\Users\Admin\Desktop\StartParkCherepovetc\src\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
 C:\Users\Admin\Desktop\StartParkCherepovetc\src\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Program Files\gitter\StartParkCherepovetc\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Program Files\gitter\StartParkCherepovetc\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Program Files\gitter\StartParkCherepovetc\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Program Files\gitter\StartParkCherepovetc\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Program Files\gitter\StartParkCherepovetc\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Program Files\gitter\StartParkCherepovetc\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Program Files\gitter\StartParkCherepovetc\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Program Files\gitter\StartParkCherepovetc\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Program Files\gitter\StartParkCherepovetc\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.MainForm.resources
+C:\Program Files\gitter\StartParkCherepovetc\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.NewBookForm.resources

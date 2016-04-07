@@ -10,18 +10,26 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApplication1
 {
-	public partial class Form2 : Form
+	public partial class NewBookForm : Form
 	{
-		private DataGridView _dgv;  //variable - GridView pointer
+		public string BookName
+		{
+			get { return _txtName.Text; }
+			private set
+			{
+				_txtName.Text = value;
+            }
+		}
+		//private DataGridView _dgv;  //variable - GridView pointer
 
 		/// <summary>
 		/// Giving access to GridView on Form2
 		/// </summary>
 		/// <param name="_dgv">GridView pointer</param>
-		public Form2(DataGridView _dgv)
+		public NewBookForm()
 		{
 			InitializeComponent();
-			if(_dgv != null) this._dgv = _dgv;
+			//if(_dgv != null) this._dgv = _dgv;
 		}
 
 		/// <summary>
@@ -49,10 +57,11 @@ namespace WindowsFormsApplication1
 
 			else
 			{
-				_dgv.Rows.Add(new object[] { _txtWriter.Text, _txtName.Text, _txtYear.Text }); //add data in GridView
+				//_dgv.Rows.Add(new object[] { _txtWriter.Text, _txtName.Text, _txtYear.Text }); //add data in GridView
 
 			}
 
+			DialogResult = DialogResult.OK;
 		}
 
 		/// <summary>
