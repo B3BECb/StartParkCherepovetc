@@ -1,4 +1,4 @@
-﻿namespace FileLoader
+﻿namespace FileLoader.Forms
 {
 	partial class FileLoaderForm
 	{

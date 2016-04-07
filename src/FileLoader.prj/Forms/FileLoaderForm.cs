@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Windows.Forms;
 
-using FileLoader.ViewModels;
 using FileLoader.Core;
 
-namespace FileLoader
+namespace FileLoader.Forms
 {
 	public partial class FileLoaderForm : Form
 	{

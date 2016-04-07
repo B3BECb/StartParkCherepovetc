@@ -1,5 +1,4 @@
 ﻿using FileLoader.Core;
-using FileLoader.Forms;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -8,16 +7,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace FileLoader.ViewModels
+namespace FileLoader.Forms
 {
 	sealed class FileLoaderViewModel : INotifyPropertyChanged
 	{
 		#region Properties
 
+		/// <summary>Возвращает и задаёт путь к файлу.</summary>
 		public string FilePath { get { return _filePath; } set { _filePath = value; VerifyPath(); } }
 
+		/// <summary>Возвращает результат валидации.</summary>
 		public string ValidationResult { get; private set; } = "Указан неверный путь";
 
+		/// <summary>Включна ли кнопка.</summary>
 		public bool IsLoadFileEnabled { get; private set; }
 
 		#endregion
@@ -49,6 +51,7 @@ namespace FileLoader.ViewModels
 			}
 		}
 
+		/// <summary>Выполняет загрузку файла в новое окно.</summary>
 		public void LoadFile()
 		{
 			var content = Loader.LoadFile(FilePath);
@@ -56,6 +59,7 @@ namespace FileLoader.ViewModels
 			new LoadedFile(System.IO.Path.GetFileName(FilePath), content).Show();
 		}
 
+		/// <summary>Валидирует путь к файлу.</summary>
 		public void VerifyPath()
 		{
 			if(!string.IsNullOrEmpty(FilePath))
