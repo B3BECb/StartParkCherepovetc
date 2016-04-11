@@ -11,8 +11,6 @@ namespace ChatRoom
 		[STAThread]
 		static void Main()
 		{
-			var c = new Class1();
-
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
 			Application.Run(new MainForm());
