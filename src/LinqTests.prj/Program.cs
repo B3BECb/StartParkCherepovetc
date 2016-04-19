@@ -14,8 +14,8 @@ namespace LinqTests
 		{
 			var operators = InitializeOperators();
 
-			Console.WriteLine("First operator is " + operators.FirstOrDefault().Name);
-			Console.WriteLine("Last operator is " + operators.LastOrDefault().Name);
+			Console.WriteLine("First operator is " + operators.FirstOrDefault()?.Name);
+			Console.WriteLine("Last operator is " + operators.LastOrDefault()?.Name);
 
 			Console.WriteLine();
 
