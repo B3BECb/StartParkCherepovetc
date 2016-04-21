@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mallenom.databases", "mallenom.databases.prj\mallenom.databases.csproj", "{87A46D1A-5465-4A52-A6E0-7219269D03CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncMethods", "AsyncMethods\AsyncMethods.csproj", "{F4802C1B-C833-4FC7-B465-1F114FE8BC4C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{87A46D1A-5465-4A52-A6E0-7219269D03CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87A46D1A-5465-4A52-A6E0-7219269D03CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87A46D1A-5465-4A52-A6E0-7219269D03CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4802C1B-C833-4FC7-B465-1F114FE8BC4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4802C1B-C833-4FC7-B465-1F114FE8BC4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4802C1B-C833-4FC7-B465-1F114FE8BC4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4802C1B-C833-4FC7-B465-1F114FE8BC4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
